@@ -1,6 +1,6 @@
 1- created by facebook
-2- its a JS library for building user interface
-3- it structured with reusable components (each one is a piece of the UI)
+2- it is a JS library for building user interface
+3- it istructured with reusable components (each one is a piece of the UI)
 5- every react app has the ROOT COMPONENT and its CHILDREN COMPONENTS
 6- every React app has a tree structure (read nº5)
 7- usually, each component is implemented as a JS class, with a state render method

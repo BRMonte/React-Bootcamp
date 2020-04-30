@@ -1,28 +1,46 @@
-1- created by facebook
-2- its a JS library for building user interface
-3- it structured with reusable components (each one is a piece of the UI)
-5- every react app has the ROOT COMPONENT and its CHILDREN COMPONENTS
-6- every React app has a tree structure (read nº5)
-7- usually, each component is implemented as a JS class, with a state render method
-class Tweet {
-  state = {}; // data that we want to display when the component is rendered
-  render() { // it describes what the UI should look like
+1- in the old days, it was hard to sync the app with all the browsers
+2- initially, JQuery make it simpler, by handling this complexity and stablishing a unified syntax
+3- because it got easier to work with the DOM, apps became bigger and bigger and more complex
+4- this gaves us the SPA: single page application
+5- traditionally each page of the app would have its own HTML/JS/CSS files and requests
+6- now, thanks to AJAX we can focus on the JS files ans less on the HTML and CSS
+7- because we only load the HTML and CSS once
+8- so again SPA: we spend the whole time in the same page and the JS only updates what is needed
+9- meanning we can sign in to an app and never having to speak with the server
+10- SPA became a trend. In 2010 Google created ANGULAR.JS
+11- the MVC pattern became POPULAR by ANGULAR.JS
+12- and with this structured it became harder to debug code
+13- this brought atention to architecture: how the code is structured and the data manipulated
+14- and FACEBOOK developed REACT as a response
+15- it is the most popular front end Librarie
+16- key concepts in react:
 
-  }
-}
-8- the output of this render is React Element = simple plain JS object that kind of represents the DOM ELEMENT
-9- so react keeps a light representation of the DOM Element called VIRTUAL DOM
-10- the VIRTUAL DOM is cheaper to create
-11- when the state of a component is changed, then we have a new REACT ELEMENT
-12- then react will compare this new element with the previous one
-13- it will figure out what has changed and update the REAL DOM to make everything sinc with the VIRTUAL DOM
-14- this means: working with React makes unecessary to use DOM API in browsers
-15- in short: its not necessary to write code to manipulate the DOM
-16- so this technologie REACTS TO STATE CHANGES
-17- REACT is similar to ANGULAR considering the components architecture
-18- but ANGULAR is a FRAMEWORK (complete solution)
-                          x
-19- REACT is a LIBRARIE (only takes care of the rendering the view and making sure it is sync with the STATE)
-20- because of this React has a very small API to learn
-21- so React wont cover: routing, HTTP requests etc
+A- we don't have to manipulate the DOM(doc obj module): tree representation of a page
+A.1- working directly with the DOM is called IMPERATIVE PARADIGM
+A.2- IMPERATIVE PARADIGM makes difficult to see the relationship between elements
+A.3- REACT brought a more DECLARATIVE approuch
+A.4- DOM manipulation is a bottle neck and an expensive operation
+A.5- so with the DECLARATIVE paradigm we don't have to command the DOM
+A.6- we only declare through JS objects how things should be and REACT handles the DOM
+
+B- build websites like lego blocks: reusable components
+B.1- ex: react Bootstrap or Blueprint
+
+C- unidirectional dataflow
+C.1- any change in the website means a change in the STATE
+C.2- so the flow is: user press a button -> it changes the state -> combine new state + components -> update the DOM
+C.4- data only flows one way also because It never goes up (to parents), only down (to children)
+
+D- React is just the UI, the rest its up to us
+D.1- React doesn't make assumptions about what else I'm using
+
+How to be a good React Developer?
+R: 1- decide what is a component/how and if to brake it into more components
+R: 2- decide the STATE and where it lives. In what level
+R: 3- decide what changes when the STATE changes
+
+
+
+
+
 
