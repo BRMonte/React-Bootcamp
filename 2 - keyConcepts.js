@@ -10,9 +10,9 @@
 10- SPA became a trend. In 2010 Google created ANGULAR.JS
 11- the MVC pattern became POPULAR by ANGULAR.JS
 12- and with this structured it became harder to debug code
-13- this brought atention to architecture: how the code is structured and the data manipulated
+13- this brought atention to architecture: how the code is structured + how the data is manipulated
 14- and FACEBOOK developed REACT as a response
-15- it is the most popular front end Librarie
+15- it is the most popular front end Libraries
 16- key concepts in react:
 
 A- we don't have to manipulate the DOM(doc obj module): tree representation of a page
@@ -36,7 +36,7 @@ D.1- React doesn't make assumptions about what else I'm using
 
 How to be a good React Developer?
 R: 1- decide what is a component/how and if to brake it into more components
-R: 2- decide the STATE and where it lives. In what level
+R: 2- decide the STATE and where it lives. In what level it stays
 R: 3- decide what changes when the STATE changes
 
 

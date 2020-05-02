@@ -10,7 +10,7 @@ class Tweet {
 
   }
 }
-8- the output of this render is React Element = simple plain JS object that kind of represents the DOM ELEMENT
+8- the output of this render is a React Element = simple plain JS object that kind of represents the DOM ELEMENT
 9- so react keeps a light representation of the DOM Element called VIRTUAL DOM
 10- the VIRTUAL DOM is cheaper to create
 11- when the state of a component is changed, then we have a new REACT ELEMENT
@@ -20,9 +20,8 @@ class Tweet {
 15- in short: its not necessary to write code to manipulate the DOM
 16- so this technologie REACTS TO STATE CHANGES
 17- REACT is similar to ANGULAR considering the components architecture
-18- but ANGULAR is a FRAMEWORK (complete solution)
-                          x
-19- REACT is a LIBRARIE (only takes care of the rendering the view and making sure it is sync with the STATE)
-20- because of this React has a very small API to learn
+18- but ANGULAR is a FRAMEWORK (complete solution)                          x
+19- REACT is a LIBRARIE (only takes care of rendering the view and making sure its sync with the STATE)
+20- because of this, React has a very small API to learn
 21- so React wont cover: routing, HTTP requests etc
 
